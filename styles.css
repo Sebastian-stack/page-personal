@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background-size: 500%;
+    background-image: linear-gradient(135deg,#034159 0%, #025951 25%, #02735E 50%, #038C3E 75%, #0CF25D 100%);
+    animation: Back 10s infinite;
+}
+
+/*Izquierda*/
+#izquierda{
+    display:flex;
+    flex-direction: column;
+    height: all;
+    border-right: 1px dotted #DBF227;
+}
+
+#izquierda div {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 7px;
+}
+
+
+.Piola{
+    border-radius: 20% 20% 20% 20%;
+    width: 200px;
+    height: 230px;
+}
+
+
+.pasa {
+
+    width: 100%;
+    border: none;
+    background-color: #DBF227;
+    height: 50px;
+}
+.pasa a {
+    text-decoration: none;
+    color: #005C53;
+    text-decoration: dashed;
+    text-decoration-color: #005C53;
+}
+
+.Nopasa{
+    text-decoration: none;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    height: 50px;
+}
+
+.Nopasa a{
+    text-decoration: none;
+    color: #DBF227;
+}
+
+
+/*Derecha*/
+#derecha{
+
+    display: flex;
+    justify-content: center;
+    height: 1070px;
+}
+
+
+
+.Todo{
+    padding: 25px 25px 0   25px;
+}
+
+.IN{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+#lados{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 50px;
+    justify-items: center;
+}
+
+#redes{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-right: 40px;
+    padding-right: 15px;
+    gap: 20px;
+}
+
+#redes a{
+    display: flex;
+    flex-direction: column;
+}
+
+.Todo2{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.herr{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Sombra{
+    background-color: white;
+    width: 900px;
+    height: 1000px;
+    margin-top: 30px;
+    border-radius: 2.5%;
+}
+
+.sombra{
+    background-color: white;
+    width: 900px;
+    height: 450px;
+    margin-top: 30px;
+    border-radius: 2.5%;
+}
+
+.portafolio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.Fila{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.Git{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 150px;
+    border-left: #02735E 1px dotted;
+    height: 180px;
+}
+
+p{
+    font-family: 'Asistente', sans-serif;
+}
+
+h2{
+    font-family: 'Figtree', sans-serif;
+    text-align: center;
+}
+
+.Titul{
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+li{
+    padding-bottom: 9px;
+}
+
+.IN p{
+    color: #DBF227;
+}
+
+.con{
+    font-size: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: #02735E 2px solid;
+}
+
+.txt{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.GC{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.Correo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.stro{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mini{
+        border: #02735E 1px dashed;
+        margin-top: 30px;
+}
+
+@keyframes Back {
+    0%{
+        background-position: 0% 25%;
+    }
+    25%{
+        background-position: 50% 75%;
+    }
+    50%{
+        background-position: 100% 75%;
+    }
+    75%{
+        background-position: 50% 25%;
+    }
+    100%{
+        background-position: 0% 25%;
+    }
+}
